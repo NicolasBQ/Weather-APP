@@ -1,5 +1,4 @@
 import { API } from "../api.js"
-import { geo } from "./geo.js"
 
 const current = async (lat, lon) => {
     try {
