@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header class="container-fluid d-flex flex-column align-items-center justify-content-around bg-primary-subtle py-3 mb-5">
+    <header class="container-fluid d-flex flex-column align-items-center justify-content-around bg-primary-subtle py-3 mb-3">
         <div class="logo-container mb-3">
             <img src="./assets/logo.webp">
         </div>
@@ -27,27 +27,35 @@
     </header>
 
     <main>
-      <section class="container mb-5">
+      <section class="container mb-3">
         <div class="d-flex flex-column align-items-center">
-          <div>
-            ICON
+          <div class="temp-container">
+            <img src="" alt="" srcset="" data-weather-icon>
           </div>
 
           <div class="w-100 text-center">
-            <h2 data-current-city>London</h2>
-            <h3 data-current-status>Clouds</h3>
-            <h1 class="temp-title" data-current-temp>5°</h1>
+            <h2 data-current-city></h2>
+            <h3 data-current-status></h3>
+            <h1 class="temp-title" data-current-temp></h1>
+            <h4>Feels like: <b><span data-feels-temp></span></b></h4>
             <div class="d-flex justify-content-center gap-3">
               <div class="">
-                <p>H: <span data-highest-temp>6°</span></p>
+                <p>H: <span data-highest-temp></span></p>
               </div>
               <div class="">
-                <p>L: <span data-lowest-temp>1°</span></p>
+                <p>L: <span data-lowest-temp></span></p>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <div class="tables-section container">
+        <!-- Today's Data -->
+        <ul data-today-info class="container bg-dark">
+
+        </ul>
+      </div>
     </main>
 
 
