@@ -1,4 +1,5 @@
 import { turnMeasurement } from "../measurement.js";
+import { infoData } from "./infoTable.js";
 
 const currentDisplay = (city = localStorage.getItem('city'), response = JSON.parse(localStorage.getItem('currentResponse'))) => {
     const currentCity = document.querySelector('[data-current-city]');
@@ -19,13 +20,9 @@ const currentDisplay = (city = localStorage.getItem('city'), response = JSON.par
     feelsTemp.innerText = turnMeasurement(response.main.feels_like) + '°';
     weatherIcon.src = `https://openweathermap.org/img/wn/${response.weather[0].icon}@4x.png`
 
-    // Sunrise 
-    // Sunset
-    // Humidity
-    // Wind
-    // Pressure
-    // Visibility
+    infoData(response);
 }
+
 
 
 

@@ -22,3 +22,11 @@ img {
 .f-bold {
     font-weight: bold;
 }
+
+.spacing-1 {
+    letter-spacing: 1px;
+}
+
+.small-text {
+    font-size: 0.8rem;
+}
