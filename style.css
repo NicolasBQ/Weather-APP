@@ -30,3 +30,15 @@ img {
 .small-text {
     font-size: 0.8rem;
 }
+
+.width-20 {
+    width: 20%;
+}
+
+#loader {
+    display: none;
+}
+
+#loader.show {
+    display: block;
+}

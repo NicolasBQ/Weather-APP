@@ -23,7 +23,25 @@ const currentDisplay = (city = localStorage.getItem('city'), response = JSON.par
     infoData(response);
 }
 
+const handleError = () => {
+    const currentCity = document.querySelector('[data-current-city]');
+    const currentTemp = document.querySelector('[data-current-temp]');
+    const currentStatus = document.querySelector('[data-current-status]');
+    const currentHighest = document.querySelector('[data-highest-temp]');
+    const currentLowest = document.querySelector('[data-lowest-temp]');
+    const weatherIcon = document.querySelector('[data-weather-icon]');
+    const feelsTemp = document.querySelector('[data-feels-temp]');
+
+    currentCity.innerText = 'Sorry, the city was not found'
+    currentTemp.innerText = ' ';
+    currentStatus.innerText = ' ';
+    currentHighest.innerText = ' ';
+    currentLowest.innerText = ' ';
+    weatherIcon.src = '../../assets/error.svg';
+    feelsTemp.innerText = ' ';
+}
 
 
 
-export { currentDisplay }
+
+export { currentDisplay, handleError }
