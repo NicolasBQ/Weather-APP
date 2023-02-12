@@ -1,15 +1,15 @@
-import { geo } from "../data/geo.js";
-import { current } from "../data/current.js";
+import { geo } from "../data/geo.js"
+// import { current } from "../data/current.js";
 // import { currentDisplay, handleError } from "./currentWeather.js";
 
 const handler = async (location) => {
     // showLoader();
     const geoCity = await geo(location);
     if(geoCity) {
-        const cityLat = geoCity.lat;
-        const cityLon = geoCity.lon;
-        const city = geoCity.city;
-        const currentWeather = await current(cityLat, cityLon);
+        // const cityLat = geoCity.lat;
+        // const cityLon = geoCity.lon;
+        // const city = geoCity.city;
+        // const currentWeather = await current(cityLat, cityLon);
         // localStorage.setItem('city', city);
         // localStorage.setItem('currentResponse', JSON.stringify(currentWeather.currentResponse));
         // currentDisplay(city, currentWeather.currentResponse);
