@@ -13,7 +13,11 @@
 
 // appInit();
 
-alert('Hello from main');
 
 
-// document.addEventListener('DOMContentLoaded', appInit);
+const appInit = () => {
+    alert('Hello from main');
+}
+
+
+document.addEventListener('DOMContentLoaded', appInit);
