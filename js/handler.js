@@ -11,12 +11,12 @@ const handler = async (location) => {
         const cityLon = geoCity.lon;
         const city = geoCity.city;
         const currentWeather = await current(cityLat, cityLon);
-        console.log(geoCity);
-        // localStorage.setItem('city', city);
-        // localStorage.setItem('currentResponse', JSON.stringify(currentWeather.currentResponse));
-        // currentDisplay(city, currentWeather.currentResponse);
-        // hideLoader();
+        localStorage.setItem('city', city);
+        localStorage.setItem('currentResponse', JSON.stringify(currentWeather.currentResponse));
+        currentDisplay(city, currentWeather.currentResponse);
+        hideLoader();
     } else {
+        console.log('E');
         // handleError();
         // hideLoader();
     }
