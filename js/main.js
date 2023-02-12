@@ -11,7 +11,7 @@ const appInit = () => {
     changeMeasurement();
 }
 
-alert('Hello From main');
+appInit();
 
 
 // document.addEventListener('DOMContentLoaded', appInit);
