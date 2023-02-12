@@ -1,4 +1,4 @@
-import { API } from "../api.js"
+import { API } from "../api";
 
 const current = async (lat, lon) => {
     try {

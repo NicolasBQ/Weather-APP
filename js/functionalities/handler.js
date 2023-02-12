@@ -1,6 +1,6 @@
 import { geo } from "../data/geo.js";
 import { current } from "../data/current.js";
-import { currentDisplay, handleError } from "currentWeather.js";
+import { currentDisplay, handleError } from "./currentWeather.js";
 
 const handler = async (location) => {
     showLoader();
