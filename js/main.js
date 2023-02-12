@@ -1,17 +1,19 @@
-import { getForm } from "./form.js";
-import { handler } from "./functionalities/handler.js";
-import { changeMeasurement } from "./measurement.js";
-import { mediaSize } from "./mediaQueries.js";
+// import { getForm } from "./form.js";
+// import { handler } from "./functionalities/handler.js";
+// import { changeMeasurement } from "./measurement.js";
+// import { mediaSize } from "./mediaQueries.js";
 
-const appInit = () => {
-    alert('SSi');   
-    mediaSize();
-    handler('Bogota');
-    getForm();
-    changeMeasurement();
-}
+// const appInit = () => {
+//     alert('SSi');   
+//     mediaSize();
+//     handler('Bogota');
+//     getForm();
+//     changeMeasurement();
+// }
 
-appInit();
+// appInit();
+
+alert('Hello from main');
 
 
 // document.addEventListener('DOMContentLoaded', appInit);
