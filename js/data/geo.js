@@ -1,4 +1,4 @@
-import { API } from "./api.js";
+import { API } from "../api.js";
 
 const geo = async (location = 'Bogota') => {
     // Location

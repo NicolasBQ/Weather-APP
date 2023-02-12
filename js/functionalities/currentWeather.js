@@ -1,4 +1,4 @@
-import { turnMeasurement } from "./measurement.js";
+import { turnMeasurement } from "../measurement.js";
 import { infoData } from "./infoTable.js";
 
 const currentDisplay = (city = localStorage.getItem('city'), response = JSON.parse(localStorage.getItem('currentResponse'))) => {
