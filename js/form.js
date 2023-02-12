@@ -9,7 +9,7 @@ const formHandler = async (e) => {
     e.preventDefault();
     const location = document.querySelector('[data-search-input]').value;
     localStorage.setItem('city', location);
-    handler(location);
+    // handler(location);
 }
 
 export { getForm }
