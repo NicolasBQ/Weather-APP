@@ -1,5 +1,5 @@
 import { turnMeasurement } from "../measurement.js";
-import { infoData } from "./infoTable.js";
+import { infoData } from "infoTable.js";
 
 const currentDisplay = (city = localStorage.getItem('city'), response = JSON.parse(localStorage.getItem('currentResponse'))) => {
     const currentCity = document.querySelector('[data-current-city]');

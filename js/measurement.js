@@ -1,4 +1,4 @@
-import { currentDisplay } from "./functionalities/currentWeather.js";
+import { currentDisplay } from "functionalities/currentWeather.js";
 
 let measurement = 'C';
 
