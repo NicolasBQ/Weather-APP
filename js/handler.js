@@ -4,8 +4,8 @@ import { currentDisplay, handleError } from "./currentWeather.js";
 
 const handler = async (location) => {
     alert(location);
-    // showLoader();
-    // const geoCity = await geo(location);
+    showLoader();
+    const geoCity = await geo(location);
     // if(geoCity) {
     //     const cityLat = geoCity.lat;
     //     const cityLon = geoCity.lon;
