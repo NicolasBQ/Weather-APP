@@ -3,7 +3,6 @@ import { current } from "../data/current.js"
 import { currentDisplay, handleError } from "./currentWeather.js";
 
 const handler = async (location) => {
-    alert(location);
     showLoader();
     const geoCity = await geo(location);
     if(geoCity) {
