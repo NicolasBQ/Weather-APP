@@ -6,9 +6,9 @@ import { mediaSize } from "./mediaQueries.js";
 const appInit = () => {
     alert('SSi');   
     mediaSize();
-    handler('Bogota');
+    // handler('Bogota');
     getForm();
-    changeMeasurement();
+    // changeMeasurement();
 }
 
 
