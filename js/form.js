@@ -1,4 +1,4 @@
-// import { handler } from "./handler.js";
+import { handler } from "./handler.js";
 
 const getForm = () => {
     const form = document.querySelector('[data-search-form]');
