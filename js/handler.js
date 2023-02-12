@@ -1,4 +1,4 @@
-import { geo } from "../geo.js";
+import { geo } from "./geo.js";
 // import { current } from "../data/current.js";
 // import { currentDisplay, handleError } from "./currentWeather.js";
 
